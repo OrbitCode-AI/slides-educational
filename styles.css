@@ -1,0 +1,237 @@
+.reveal {
+  font-family: 'Georgia', serif;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 600;
+}
+
+/* Title slide */
+.lesson-badge {
+  display: inline-block;
+  padding: 8px 20px;
+  background: #268bd2;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.7em;
+  margin-bottom: 1em;
+  font-family: sans-serif;
+}
+
+.title-slide h1 {
+  margin-bottom: 0.3em;
+}
+
+.title-slide h3 {
+  color: #657b83;
+  font-weight: 400;
+}
+
+.duration {
+  margin-top: 2em;
+  color: #93a1a1;
+  font-size: 0.8em;
+}
+
+/* Intro text */
+.intro-text {
+  color: #657b83;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+/* Objectives list */
+.objectives-list {
+  list-style: none;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.objectives-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 0.8em;
+  font-size: 0.9em;
+}
+
+.check-icon {
+  color: #859900;
+  font-weight: bold;
+}
+
+/* Concept diagram */
+.concept-diagram {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 1.5em;
+}
+
+.box {
+  border: 3px solid #268bd2;
+  padding: 20px 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fdf6e3;
+}
+
+.box-label {
+  font-size: 0.7em;
+  color: #93a1a1;
+  font-family: monospace;
+}
+
+.box-value {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #268bd2;
+  font-family: monospace;
+}
+
+/* Type cards */
+.type-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 1em;
+}
+
+.type-card {
+  background: #fdf6e3;
+  padding: 25px 35px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid #eee8d5;
+}
+
+.type-icon {
+  font-size: 2em;
+}
+
+.type-name {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.type-example {
+  font-family: monospace;
+  color: #268bd2;
+  font-size: 0.85em;
+}
+
+/* Code block */
+.code-block {
+  text-align: left;
+  background: #002b36 !important;
+  padding: 25px !important;
+  border-radius: 10px;
+  font-size: 0.7em !important;
+}
+
+.code-block code {
+  color: #93a1a1;
+  font-family: 'Fira Code', monospace;
+}
+
+/* Output preview */
+.output-preview {
+  margin-top: 1em;
+  padding: 15px 25px;
+  background: #073642;
+  border-radius: 8px;
+  display: inline-flex;
+  gap: 15px;
+  font-family: monospace;
+}
+
+.output-label {
+  color: #859900;
+}
+
+.output-text {
+  color: #fdf6e3;
+}
+
+/* Exercise box */
+.exercise-box {
+  background: #fdf6e3;
+  border: 2px solid #268bd2;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.exercise-box h4 {
+  color: #268bd2;
+  margin: 0 0 0.5em;
+}
+
+.exercise-box ul {
+  font-size: 0.85em;
+}
+
+.timer-hint {
+  margin-top: 1.5em;
+  color: #cb4b16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.9em;
+}
+
+/* Summary grid */
+.summary-grid {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+}
+
+.summary-number {
+  width: 32px;
+  height: 32px;
+  background: #268bd2;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  flex-shrink: 0;
+}
+
+.next-steps {
+  margin-top: 2em;
+  padding: 20px;
+  background: #eee8d5;
+  border-radius: 10px;
+}
+
+.next-steps h4 {
+  margin: 0 0 0.3em;
+  color: #268bd2;
+}
+
+.next-steps p {
+  margin: 0;
+  font-size: 0.9em;
+}
