@@ -130,10 +130,10 @@
 /* Code block */
 .code-block {
   text-align: left;
-  background: #002b36 !important;
-  padding: 25px !important;
+  background: #002b36;
+  padding: 25px;
   border-radius: 10px;
-  font-size: 0.7em !important;
+  font-size: 0.7em;
 }
 
 .code-block code {
