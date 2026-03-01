@@ -1,9 +1,11 @@
 .reveal {
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
 }
 
-.reveal h1, .reveal h2, .reveal h3 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 600;
 }
 
@@ -138,7 +140,7 @@
 
 .code-block code {
   color: #93a1a1;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
 }
 
 /* Output preview */

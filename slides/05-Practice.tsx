@@ -1,7 +1,7 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface PracticeSlideProps {
-  isNested?: boolean;
+  isNested?: boolean
 }
 
 function PracticeSlide({ isNested }: PracticeSlideProps) {
@@ -24,11 +24,11 @@ function PracticeSlide({ isNested }: PracticeSlideProps) {
         </div>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function PracticeSlidePreview() {
-  return <PracticeSlide />;
+  return <PracticeSlide />
 }
 
-export { PracticeSlide };
+export { PracticeSlide }

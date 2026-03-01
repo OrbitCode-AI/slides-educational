@@ -1,7 +1,7 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface ExampleSlideProps {
-  isNested?: boolean;
+  isNested?: boolean
 }
 
 function ExampleSlide({ isNested }: ExampleSlideProps) {
@@ -13,7 +13,7 @@ let score = 0;
 score = score + 10;
 
 // Display result
-console.log(name + " scored " + score);`;
+console.log(name + " scored " + score);`
 
   return (
     <Slide isNested={isNested}>
@@ -28,11 +28,11 @@ console.log(name + " scored " + score);`;
         </div>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function ExampleSlidePreview() {
-  return <ExampleSlide />;
+  return <ExampleSlide />
 }
 
-export { ExampleSlide };
+export { ExampleSlide }

@@ -1,7 +1,7 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface ConceptSlideProps {
-  isNested?: boolean;
+  isNested?: boolean
 }
 
 function ConceptSlide({ isNested }: ConceptSlideProps) {
@@ -51,11 +51,11 @@ function ConceptSlide({ isNested }: ConceptSlideProps) {
         </section>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function ConceptSlidePreview() {
-  return <ConceptSlide />;
+  return <ConceptSlide />
 }
 
-export { ConceptSlide };
+export { ConceptSlide }

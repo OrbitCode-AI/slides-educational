@@ -1,7 +1,7 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface ReviewSlideProps {
-  isNested?: boolean;
+  isNested?: boolean
 }
 
 function ReviewSlide({ isNested }: ReviewSlideProps) {
@@ -29,11 +29,11 @@ function ReviewSlide({ isNested }: ReviewSlideProps) {
         </div>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function ReviewSlidePreview() {
-  return <ReviewSlide />;
+  return <ReviewSlide />
 }
 
-export { ReviewSlide };
+export { ReviewSlide }

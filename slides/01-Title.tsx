@@ -1,10 +1,10 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface TitleSlideProps {
-  isNested?: boolean;
-  title?: string;
-  subtitle?: string;
-  lesson?: string;
+  isNested?: boolean
+  title?: string
+  subtitle?: string
+  lesson?: string
 }
 
 function TitleSlide({
@@ -24,11 +24,11 @@ function TitleSlide({
         </div>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function TitleSlidePreview() {
-  return <TitleSlide />;
+  return <TitleSlide />
 }
 
-export { TitleSlide };
+export { TitleSlide }

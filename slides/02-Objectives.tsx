@@ -1,8 +1,8 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface ObjectivesSlideProps {
-  isNested?: boolean;
-  objectives?: string[];
+  isNested?: boolean
+  objectives?: string[]
 }
 
 const defaultObjectives = [
@@ -10,7 +10,7 @@ const defaultObjectives = [
   'Write your first lines of code',
   'Create a simple interactive program',
   'Debug common beginner mistakes',
-];
+]
 
 function ObjectivesSlide({ isNested, objectives = defaultObjectives }: ObjectivesSlideProps) {
   return (
@@ -28,11 +28,11 @@ function ObjectivesSlide({ isNested, objectives = defaultObjectives }: Objective
         </ul>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function ObjectivesSlidePreview() {
-  return <ObjectivesSlide />;
+  return <ObjectivesSlide />
 }
 
-export { ObjectivesSlide };
+export { ObjectivesSlide }
